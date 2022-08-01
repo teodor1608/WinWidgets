@@ -5,8 +5,7 @@
     <head/>
 <body>
 
-<h1 class="h1 text-primary">My First Heading</h1>
-<p>My first paragraph.</p>
+<p class="h1 text-primary">My first paragraph.</p>
 
 </body>
 </html>
