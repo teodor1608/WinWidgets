@@ -5,16 +5,46 @@
 }
 
 body {
-    background-color: #292B2F;
+    background-color: #202225;
 }
 
 p{
     font-family: 'Arial Rounded MT', Arial, sans-serif;
     color: white;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+h1{
+    font-family: 'Arial Rounded MT', Arial, sans-serif;
+    color: white;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.TagText{
+    font-family: 'Arial Rounded MT', Arial, sans-serif;
+    color: white;
+    background: #FF7F50;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.ItemBackground{
+    background-color: #292B2F;
+}
+.ItemSubBackground
+{
+    background-color: #2F3136;
 }
 
 .banner {
     background: #a770ef;
-    background: -webkit-linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
-    background: linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
+    background: linear-gradient(to right, #A9A9FF, #FF7F50, #8EF3F8);
   }
