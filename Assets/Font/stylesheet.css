@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Arial Rounded MT';
+    src: url('https://teodor1608.github.io/WinWidgets/Assets/Font/ArialRoundedMTBold.woff2') format('woff2'),
+        url('https://teodor1608.github.io/WinWidgets/Assets/Font/ArialRoundedMTBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
