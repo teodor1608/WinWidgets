@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $('#nav-bar a').on('click', function (e) {
+                e.preventDefault();
+                var page = $(this).attr('href');
+                $('#content').load(page);
+            });
+        });
+        $(document).ready(function() {
+  "use strict";
+
+  $('ul.navbar-nav > li').click(function(e) {
+    e.preventDefault();
+    $('ul.navbar-nav > li').removeClass('active');
+    $(this).addClass('active');
+  });
+});
+    </script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+<body>
+    <div class="container-fluid">
+        <div class="">
+      
+          <!-- Banner -->
+          <div class="row pb-2">
+            <div class="col-lg-12 mx-auto">
+              <div class="text-white p-5 shadow-sm rounded-lg banner">
+                <h1 class="display-5">WinWidgets Release Notes</h1>
+                <p class="lead">Version 22.0.2.0</p>
+              </div>
+            </div>
+          </div>
+          <!-- End -->
+          <a id="buttonDown" class="d-flex justify-content-center h4" href="#section1">See the release notes</a>
+          
+          <div class="pb-5 pt-5"></div>
+
+          <div id="section1"></div>
+
+          <nav class="navbar navbar-expand-lg">
+
+            <div class="navbar-expand" id="navbarNav">
+              <ul id="nav-bar" class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="releases/r22020.html">22.0.2.0<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="releases/r22020.html">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">Pricing</a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="releases/r22020.html">22.0.2.0<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="releases/r22020.html">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="">Pricing</a>
+                  </li><li class="nav-item active">
+                    <a class="nav-link" href="releases/r22020.html">22.0.2.0<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="releases/r22020.html">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="">Pricing</a>
+                  </li><li class="nav-item active">
+                    <a class="nav-link" href="releases/r22020.html">22.0.2.0<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="releases/r22020.html">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="">Pricing</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+
+          <div id="content" class="ReleaseNotes h3 d-flex align-items-center justify-content-between">
+          </div>
+
+          
+
+
+
+        </div>
+      </div>
+</body>
+</html>

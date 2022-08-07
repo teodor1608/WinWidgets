@@ -78,4 +78,72 @@ h1{
 .banner {
     background: #a770ef;
     background: linear-gradient(135deg, #A9A9FF, #FF7F50, #8EF3F8);
+}
+
+.ReleaseNotes{
+    font-family: 'Arial Rounded MT', Arial, sans-serif;
+    color: white;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.navbar{
+    font-family: 'Arial Rounded MT', Arial, sans-serif;
+    color: #FF7F50;
+    background: #202225;
+
+    overflow:auto; overflow-x:auto;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+/* width */
+.navbar::-webkit-scrollbar {
+    width: 10px;
   }
+  
+  /* Track */
+  .navbar::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #2F3136;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  .navbar::-webkit-scrollbar-thumb {
+    background: #FF7F50;
+    border-radius: 10px;
+  }
+
+.nav-link{
+    font-family: 'Arial Rounded MT', Arial, sans-serif;
+    color: white;
+    background: #202225;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.nav-link:hover{
+    font-family: 'Arial Rounded MT', Arial, sans-serif;
+    color: #FF7F50;
+    background: #202225;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+ul#nav-bar li.active a{
+    font-family: 'Arial Rounded MT', Arial, sans-serif;
+    color: #FF7F50;
+    background: #202225;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
