@@ -94,7 +94,15 @@ h1{
     color: #FF7F50;
     background: #202225;
 
-    overflow:hidden; overflow-x:scroll;
+    display: flex;
+    max-width: 700px;
+    flex-direction: column;
+
+    flex: 0 0 auto;
+    flex: 0 1 75px;
+
+    overflow:hidden; 
+    overflow-x:scroll;
 
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE 10 and IE 11 */
