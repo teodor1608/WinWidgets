@@ -96,13 +96,19 @@ h1{
 
     display: flex;
     max-width: 700px;
-    flex-direction: column;
-
-    flex: 0 0 auto;
-    flex: 0 1 75px;
+    flex-direction: row;
 
     overflow:hidden; 
     overflow-x:scroll;
+
+    color:black;
+    scrollbar-face-color:#05B7FF;
+    scrollbar-arrow-color:#05B7FF;
+    scrollbar-track-color:#CBD5D7;
+    scrollbar-shadow-color:#05B7FF;
+    scrollbar-highlight-color:#05B7FF;
+    scrollbar-3dlight-color:#808080;
+    scrollbar-darkshadow-Color:#202020;
 
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE 10 and IE 11 */
@@ -124,7 +130,7 @@ h1{
   .navbar::-webkit-scrollbar-thumb {
     background: #FF7F50;
     border-radius: 10px;
-  }
+}
 
 .nav-link{
     font-family: 'Arial Rounded MT', Arial, sans-serif;
