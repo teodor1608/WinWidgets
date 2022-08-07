@@ -113,14 +113,14 @@ h1{
             padding-bottom: 32px;
     
             /* ie scrollbar color properties */
-            scrollbar-base-color: #efefef;
-            scrollbar-face-color: #666666;
-            scrollbar-3dlight-color: #666666;
-            scrollbar-highlight-color: #666666;
-            scrollbar-track-color: #efefef;
-            scrollbar-arrow-color: #666666;
-            scrollbar-shadow-color: #666666;
-            scrollbar-dark-shadow-color: #666666;
+            scrollbar-base-color: #202225;
+            scrollbar-face-color: #FF7F50;
+            scrollbar-3dlight-color: #FF7F50;
+            scrollbar-highlight-color: #FF7F50;
+            scrollbar-track-color: #202225;
+            scrollbar-arrow-color: #FF7F50;
+            scrollbar-shadow-color: #FF7F50;
+            scrollbar-dark-shadow-color: #FF7F50;
       }
       
           .navbar:after {
