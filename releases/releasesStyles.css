@@ -1,0 +1,24 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+body {
+    background-color: #202225;
+}
+
+ul{
+    background-color: #202225;
+}
+
+.list-group-item
+{
+    background-color: #202225;
+    font-size: medium;
+    border-color: coral;
+}

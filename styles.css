@@ -78,6 +78,7 @@ h1{
 .banner {
     background: #a770ef;
     background: linear-gradient(135deg, #A9A9FF, #FF7F50, #8EF3F8);
+    border-radius: 1rem;
 }
 
 .ReleaseNotes{
@@ -89,12 +90,8 @@ h1{
     user-select: none; /* Standard syntax */
 }
 
-
-
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    .navbar {
-        
-        font-family: 'Arial Rounded MT', Arial, sans-serif;
+.navbar{
+    font-family: 'Arial Rounded MT', Arial, sans-serif;
     color: #FF7F50;
     background: #202225;
 
@@ -105,31 +102,7 @@ h1{
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */
-
-            margin-right: -10px;
-            padding-top: 32px;
-            margin-top: -32px;
-            margin-bottom: -32px;
-            padding-bottom: 32px;
-    
-            /* ie scrollbar color properties */
-            scrollbar-base-color: #202225;
-            scrollbar-face-color: #FF7F50;
-            scrollbar-3dlight-color: #FF7F50;
-            scrollbar-highlight-color: #FF7F50;
-            scrollbar-track-color: #202225;
-            scrollbar-arrow-color: #FF7F50;
-            scrollbar-shadow-color: #FF7F50;
-            scrollbar-dark-shadow-color: #FF7F50;
-      }
-      
-          .navbar:after {
-            content: "";
-            height: 32px;
-            display: block;
-        }
-        
-    }
+}
 
 /* width */
 .navbar::-webkit-scrollbar {
