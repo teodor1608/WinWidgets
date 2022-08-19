@@ -94,9 +94,11 @@ h1{
     font-family: 'Arial Rounded MT', Arial, sans-serif;
     color: #FF7F50;
     background: #202225;
+    max-height: 80px;
 
-    overflow:visible; 
+    overflow:auto; 
     overflow-x:auto;
+    white-space: nowrap;
     -webkit-overflow-scrolling: touch;
 
     -webkit-user-select: none; /* Safari */
@@ -125,7 +127,7 @@ h1{
     font-family: 'Arial Rounded MT', Arial, sans-serif;
     color: white;
     background: #202225;
-
+    display:inline-block;
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */
@@ -135,7 +137,7 @@ h1{
     font-family: 'Arial Rounded MT', Arial, sans-serif;
     color: #FF7F50;
     background: #202225;
-
+    display:inline-block;
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */
@@ -145,7 +147,7 @@ ul#nav-bar li.active a{
     font-family: 'Arial Rounded MT', Arial, sans-serif;
     color: #FF7F50;
     background: #202225;
-
+    display:inline-block;
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */
