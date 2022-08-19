@@ -39,6 +39,15 @@ h1{
     user-select: none; /* Standard syntax */
 }
 
+h2{
+    font-family: 'Arial Rounded MT', Arial, sans-serif;
+    color: white;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
 #buttonDown{
     font-family: 'Arial Rounded MT', Arial, sans-serif;
     color: #FF7F50;
