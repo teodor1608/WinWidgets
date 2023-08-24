@@ -1,0 +1,145 @@
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  /* Track */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #9A9A9C; 
+    border-radius: 10px;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    border: 0;
+    background: #9A9A9C; 
+}
+
+
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+body {
+    background-color: #202225;
+}
+
+a{
+    font-family: 'Arial Rounded MT', Arial, sans-serif;
+    color: white;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+p{
+    font-family: 'Arial Rounded MT', Arial, sans-serif;
+    color: white;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+h1{
+    font-family: 'Arial Rounded MT', Arial, sans-serif;
+    color: white;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+h2{
+    font-family: 'Arial Rounded MT', Arial, sans-serif;
+    color: white;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+h3{
+    font-family: 'Arial Rounded MT', Arial, sans-serif;
+    color: white;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+ul{
+    background-color: #202225;
+}
+
+.list-group-item
+{
+    background-color: #202225;
+    font-size: medium;
+    border-color: transparent;
+}
+
+li::before 
+{
+    content: "•"; 
+    color: white; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+li{
+    font-family: 'Arial Rounded MT', Arial, sans-serif;
+    color: white;
+    background: #FF7F50;
+
+    margin: 10px;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.ItemBackground{
+    background-color: #292B2F;
+}
+
+.ItemSubBackground
+{
+    background-color: #2F3136;
+}
+
+.banner {
+    background: linear-gradient(135deg, #A9A9FF, #FF7F50, #8EF3F8);
+    border-radius: 1rem;
+}
+
+.ReleaseNotes{
+    font-family: 'Arial Rounded MT', Arial, sans-serif;
+    color: white;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+hr{
+    height: 5px;
+    width: 99%;
+    background: linear-gradient(135deg, #A9A9FF, #FF7F50, #8EF3F8);;
+    border-radius: 100px;
+    
+}
