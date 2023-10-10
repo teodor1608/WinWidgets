@@ -2,6 +2,29 @@ html {
     scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+  /* Track */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #9A9A9C; 
+    border-radius: 10px;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    border: 0;
+    background: #9A9A9C; 
+}
+
+
 .prevent-select {
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
@@ -48,49 +71,7 @@ h2{
     user-select: none; /* Standard syntax */
 }
 
-#buttonDown{
-    font-family: 'Arial Rounded MT', Arial, sans-serif;
-    color: #FF7F50;
-
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
-}
-
-#buttonDown:hover{
-    font-family: 'Arial Rounded MT', Arial, sans-serif;
-    color: #FF7F50;
-
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
-}
-
-.TagText{
-    font-family: 'Arial Rounded MT', Arial, sans-serif;
-    color: white;
-    background: #FF7F50;
-
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
-}
-
-.ItemBackground{
-    background-color: #292B2F;
-}
-.ItemSubBackground
-{
-    background-color: #2F3136;
-}
-
-.banner {
-    background: #a770ef;
-    background: linear-gradient(135deg, #A9A9FF, #FF7F50, #8EF3F8);
-    border-radius: 1rem;
-}
-
-.ReleaseNotes{
+h3{
     font-family: 'Arial Rounded MT', Arial, sans-serif;
     color: white;
 
@@ -99,65 +80,55 @@ h2{
     user-select: none; /* Standard syntax */
 }
 
-.navbar{
-    font-family: 'Arial Rounded MT', Arial, sans-serif;
-    color: #FF7F50;
-    background: #202225;
-    max-height: 80px;
-
-    overflow:auto; 
-    overflow-x:auto;
-    white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
-
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
+#gradient-canvas {
+    height: 90%;
+    width: 100%;
+    --gradient-color-1: #a9a9ff; 
+    --gradient-color-2: #FF7F50; 
+    --gradient-color-3: #8EF3F8;  
+    --gradient-color-4: #FF7F50;
+    filter: blur(12px);
 }
 
-/* width */
-.navbar::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  /* Track */
-  .navbar::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px #2F3136;
-    border-radius: 10px;
-  }
-  
-  /* Handle */
-  .navbar::-webkit-scrollbar-thumb {
-    background: #FF7F50;
-    border-radius: 10px;
+#gradient-canvas-div {
+    height: 100%;
+    width: 100%;
 }
 
-.nav-link{
-    font-family: 'Arial Rounded MT', Arial, sans-serif;
-    color: white;
-    background: #202225;
-    display:inline-block;
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
+#waves{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    z-index: 100;
 }
 
-.nav-link:hover{
-    font-family: 'Arial Rounded MT', Arial, sans-serif;
-    color: #FF7F50;
-    background: #202225;
-    display:inline-block;
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
+#grad-div{
+    height: 40%;
+    width: 100%;
+    position: absolute;
 }
 
-ul#nav-bar li.active a{
-    font-family: 'Arial Rounded MT', Arial, sans-serif;
-    color: #FF7F50;
-    background: #202225;
-    display:inline-block;
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
+#logo {
+    position: absolute;
+    height: 100%;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    
+    z-index: 101;
+    filter: drop-shadow(0px 0px 42px coral);
 }
+
+#wwTitle{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-size: 120px;
+    filter: drop-shadow(0px 0px 22px coral);
+    background: #A9A9FF;
+    background: linear-gradient(to bottom right, #A9A9FF 10%, #FF7F50 50%, #8EF3F8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}   
