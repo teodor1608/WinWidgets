@@ -143,3 +143,71 @@ hr{
     border-radius: 100px;
     
 }
+
+.card-header{
+    border-radius: 10px;
+    background-color: #202225;
+    border-color: #202225;
+}
+
+.card-link{
+    border-radius: 10px;
+    color: white;
+    border-color: #202225;
+}
+
+.card-link:hover{
+    color: #FF7F50;
+}
+
+.card-body{
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    color: white;
+    background-color: #202225;
+    font-family: 'Arial Rounded MT', Arial, sans-serif;;
+}
+
+.card{
+    margin-bottom: 20px;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #202225;
+
+    
+}
+
+.card:before {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(35deg, #A9A9FF 0%, #FF7F50 50%, #8EF3F8 100%);
+    transform: translate3d(0px, 0px, 0) scale(1);
+    filter: blur(8px);
+    opacity: var(1);
+    transition: opacity 0.3s;
+    border-radius: inherit;
+}
+
+/* 
+* Prevents issues when the parent creates a 
+* stacking context. (For example, using the transform
+* property )
+*/
+.card::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: inherit;
+    border-radius: inherit;
+}
+        
