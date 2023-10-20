@@ -139,21 +139,20 @@ li{
 hr{
     height: 5px;
     width: 99%;
-    background: linear-gradient(135deg, #A9A9FF, #FF7F50, #8EF3F8);;
+    background: linear-gradient(135deg, #A9A9FF, #FF7F50, #8EF3F8);
     border-radius: 100px;
     
 }
 
 .card-header{
-    border-radius: 10px;
-    background-color: #202225;
-    border-color: #202225;
+    background-color: transparent;
+    border-width: 0px;
 }
 
 .card-link{
     border-radius: 10px;
     color: white;
-    border-color: #202225;
+    border-color: transparent;
 }
 
 .card-link:hover{
@@ -161,9 +160,7 @@ hr{
 }
 
 .card-body{
-    border-radius: 5px;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
+    border-radius: 10px;
     color: white;
     background-color: #202225;
     font-family: 'Arial Rounded MT', Arial, sans-serif;;
@@ -171,11 +168,12 @@ hr{
 
 .card{
     margin-bottom: 20px;
-    border-width: 2px;
-    border-radius: 10px;
-    border-color: #202225;
-
     
+    
+    background: linear-gradient(135deg, #A9A9FF, #FF7F50, #8EF3F8) padding-box,
+                linear-gradient(135deg, #A9A9FF, #FF7F50, #8EF3F8) border-box;
+    border-radius: 10px;
+    border: 4px solid transparent;
 }
 
 .card:before {
@@ -188,7 +186,7 @@ hr{
     left: 0;
     background: linear-gradient(35deg, #A9A9FF 0%, #FF7F50 50%, #8EF3F8 100%);
     transform: translate3d(0px, 0px, 0) scale(1);
-    filter: blur(8px);
+    filter: blur(10px);
     opacity: var(1);
     transition: opacity 0.3s;
     border-radius: inherit;
