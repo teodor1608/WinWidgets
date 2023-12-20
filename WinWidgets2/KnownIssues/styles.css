@@ -32,7 +32,8 @@ html {
 }
 
 body {
-    background-color: #202225;
+    background-color: #292B2F;
+    padding: 0px;
 }
 
 a{
@@ -82,15 +83,13 @@ h3{
 
 ul{
     list-style: none;
-    background-color: #202225;
+    background-color: #292B2F;
+    padding: 0px;
+    margin: 0px;
 }
 
 .list-group:first-child{
     margin-top: 10px;
-}
-
-.list-group:last-child{
-    margin-bottom: 10px;
 }
 
 .list-group-item
@@ -117,7 +116,8 @@ li{
 
     border-radius: 15px;
 
-    margin: 10px;
+    margin: 0px;
+    margin-bottom: 20px;
 
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE 10 and IE 11 */
